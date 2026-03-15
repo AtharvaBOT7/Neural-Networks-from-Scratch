@@ -1,7 +1,7 @@
 So makemore is a type of neural networj which will generate more of the same type of things uniquely. For example in this experiment, we are using the names.txt dataset which has a lot of names and we are going to generate similar sounding unique and new names. 
 
 Examples of already built out language models:
-1. Bigram 
+1. Bigram and bag of words models
 2. MLP 
 3. RNN 
 4. Transformers 
@@ -9,4 +9,5 @@ Examples of already built out language models:
 
 Main Notes:
 1. So under the hood, makemore is a character level language model, it means that makemore treats every single line in the dataset as an example and inside that example, it treats each example as a series of characters.
+2. For starters, we are trying to create a bigram model which takes in just 1 preceding charater to predict the next character and ignoring all the other rules.
 
