@@ -1,0 +1,4 @@
+What did we learn so far:
+1. So Neural Networks are just mathematical expressions of multiple layers and all of it depends on backpropagation and finding the local optimal value.
+2. So the flow of the problem is, we give the neural network some sample data, we then give it random weights and then we calculate the loss based on few metrics and then we try to minimize that loss, this is basically the training step in neural networks.
+3. Then we formulate the weights using backpropagation which best suit that specific problem and then use the weights to generalize to other unseen examples (prediction step).
